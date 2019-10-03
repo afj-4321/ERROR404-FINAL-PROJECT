@@ -1,0 +1,130 @@
+<html>
+      <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>WMU Network Connection</title>
+            <link rel="stylesheet" href="CSS/reset.css" >
+            <link rel="stylesheet" href="CSS/MainStyle.css" >
+            <link rel="stylesheet" href="CSS/NavBar.css" >
+            <link rel="stylesheet" href="CSS/WMU Network Connection Page.css" >
+          </head>
+
+          <body>
+            <header>
+              <div>
+                  <img class="LOGO"  id= "LOG" src="LOGO.png" alt="logo" />
+         <a href="Home.html">
+              </div>
+              <div class="nav" id="one">
+                <img class="icon" src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon1_zps5f01cb6e.png~c100">
+                  <p class="text">Home</p>
+               
+              </div>
+            </a>
+          <a href="About us.html">
+                <div class="nav" id="two">
+                  <img class="icon" src="About us.png">
+                    <p class="text">About us</p>
+                </div>
+                </a>
+
+                <div class="nav" id="four">
+                  <img class="icon" src="Location.png">
+                    <p class="text">Location</p>
+                </div>
+
+                <div class="nav" id="five">
+                  <img class="icon" src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon2_zps07da45f2.png~c100">
+                    <p class="text">Our Aim</p>
+                </div>
+
+                <div class="nav" id="six">
+                  <img class="icon" src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon6_zps89b62c7e.png~c100">
+                    <p class="text">Contact us</p>
+                </div>
+
+                <div class="nav" id="three">
+                    <img class="icon" src="Services.png">
+                  <button class="response"> <p class="text">Services</p></button>
+                  <div class="dropdown-content">
+                          <a href="#"> WMU Network Connection</a>
+                          <a href="#">Re-Formatting your Hard Drive</a>
+                          <a href="#">Printing Services</a>
+                  </div>
+                </header>
+
+              <main>
+                  <section>
+                 	   <h3 id="topper">How to get on WMU WiFi</h3>
+
+                  </section>
+
+                  <h3 id="top">select your device's type from the list below:</h3>
+                  <button class="collapsible">Windows:</button>
+                  <div class="content">
+                    <p>This part is will being worked on.</p>
+                  </div>
+                  <button class="collapsible">Mac OS:</button>
+                  <div class="content">
+                    <p>This part is will being worked on.</p>
+                  </div>
+                  <button class="collapsible">Android:</button>
+                  <div class="content">
+                    <p>This part is will being worked on.</p>
+                    <img src="DHCP Page qr-code.svg" alt="QR Code" class="center">
+                  </div>
+                  <button class="collapsible">IOS:</button>
+                  <div class="content">
+                    <p>This part is will being worked on.</p>
+
+                    <img src="IOS/WiFi/Step 1 Opening settings.PNG" alt="Step 1" class="center">
+
+                    <img src="IOS/WiFi/Step 2 Opening WiFi.PNG" alt="Step 2" class="center">
+
+                    <img src="IOS/WiFi/Step 3 Selecting the network.PNG" alt="Step 3" class="center">
+
+                    <img src="IOS/WiFi/Step 4 Entering your info.PNG" alt="Step 4" class="center">
+
+                    <img src="IOS/WiFi/Step 5 Trusting the certificate.PNG" alt="Step " class="center">
+
+                    <img src="IOS/WiFi/Step 6 Checking that your conned to the network.PNG" alt="Step 6" class="center">
+
+                    <img src="DHCP Page qr-code.svg" alt="QR Code" class="center">
+
+                    <p>End of IOS.</p>
+                  </div>
+
+                  <button class="collapsible">Other:</button>
+                  <div class="content">
+                    <p>This part is will being worked on.</p>
+                    <img src="DHCP Page qr-code.svg" alt="QR Code" class="center">
+                    <p>Devices without an internet browser, such as a TV or game console, will need to be manually registered on the network using a device that is already registered and connected to WMU Open or WMU Secure (such as a computer or smartphone). If you have not yet registered a different device on our network, please visit our WMU Secure setup instructions page. Alternatively, feel free to contact the Help Desk for assistance with registration of your internet connected device.</p>
+
+
+
+
+                    <p>End of other.</p>
+                  </div>
+
+
+                  <script>
+                    var coll = document.getElementsByClassName("collapsible");
+                    var i;
+
+                    for (i = 0; i < coll.length; i++) {
+                      coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.maxHeight){
+                          content.style.maxHeight = null;
+                        } else {
+                          content.style.maxHeight = content.scrollHeight + "px";
+                        }
+                      });
+                    }
+                    </script>
+
+              </main>
+
+
+        </body>

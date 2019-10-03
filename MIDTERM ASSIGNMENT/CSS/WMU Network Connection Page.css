@@ -1,0 +1,73 @@
+#topper{
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 270px;;
+}
+
+#top{
+  text-align: center;
+  font-size: 15pt;
+}
+
+#important{
+  color: red;
+  font-weight: bold;
+}
+
+main img{
+  padding-bottom: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+p{
+  text-align: left;
+  font-size: 15pt;
+  padding: 20px;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 60%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  margin-left: 20%;
+  margin-right: 20%
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  margin: 5px;
+  margin-left: 20%;
+  width: 60%;
+  border: black 5px;;
+  text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
