@@ -18,7 +18,7 @@
     width: 400px;
     top: 800px;
     right: 1000;
-    left: 450px;
+    left: 380px;
     bottom: 0;
     margin: auto;
     background-image: url(Anfaal.jpg);
@@ -27,6 +27,7 @@
     background-repeat: no-repeat;
     box-shadow: 0 0 80px -10px black;
     overflow: hidden;
+    
 }
 
 
