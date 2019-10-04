@@ -5,6 +5,7 @@
 }
 
 #top{
+  margin-top: 10px;
   text-align: center;
   font-size: 15pt;
 }
@@ -13,16 +14,28 @@
   color: red;
   font-weight: bold;
 }
+#step{
+  padding-left: 10%;
+  text-align: left;
+  font-size: 12pt;
 
-main img{
-  padding-bottom: 5px;
 }
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
+  width: 100px;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+.center:hover{
+  display: block;
+  margin-left: auto;
+  width: 400px;
+  height:auto;
+  display: block;
 }
 
 p{
