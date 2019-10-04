@@ -18,7 +18,7 @@
     width: 400px;
     top: 800px;
     right: 1000;
-    left: 0;
+    left: 450px;
     bottom: 0;
     margin: auto;
     background-image: url(Anfaal.jpg);
@@ -34,8 +34,7 @@
     position: absolute;
     height: 100%;
     width: calc(100% + 1px);
-    background-color: black;
-    opacity: 0;
+    opacity: 0.5;
     transition: opacity 0.15s ease-in;
 }
 
@@ -52,18 +51,14 @@
     bottom: 0;
 }
 
-
-
 svg#curve {
     position: absolute;
-    fill: white;
     left: 0;
+    fill: transparent;
     bottom: 0;
     width: 400px;
     height: 450px;
 }
-
-
 
 
 .connections {
@@ -163,12 +158,14 @@ svg#curve {
 .name {
     font-weight: bolder;
     padding-top: 5px;
+    color: #fcc305;
 }
 
 
 
 .job {
     margin-top: 10px;
+    color: #fcc305;
 }
 
 
