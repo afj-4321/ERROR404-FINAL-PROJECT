@@ -3,6 +3,7 @@
   margin-right: 10%;
   display: grid;
   max-width: 80%;
+  margin-top: 2rem;
 }
 
 .logo {
@@ -10,6 +11,10 @@
   padding-bottom: 2rem;
   grid-template-columns: 100%;
   background-color: black;
+  border-radius: 50px 50px 0px 0px;
+  border-bottom: none;
+  border: solid;
+  border-color: #ffae00;
 }
 
 .logo img {
@@ -21,6 +26,10 @@
 }
 
 .action-bar {
+  border-radius: 0px 0px 50px 50px;
+  border-top-color: black;
+  border: solid;
+  border-color: #ffae00;
   display: grid;
   grid-template-columns: repeat(7, auto);
   background-color: black;
@@ -102,11 +111,15 @@
   display: block;
   margin: 40px auto;
   background-color: #ffae00;
-  width: 3rem;
-  padding: 30px;
+  width: 5rem;
+  padding: 1rem;
   -webkit-border-radius: 80%;
   -webkit-box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
   -webkit-transition: box-shadow .4s;
+}
+
+.icon src{
+  width: 20%;
 }
 
 .nav:hover .text {
