@@ -1,0 +1,133 @@
+.navbar-layout {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  max-width: 80%;
+}
+
+.logo {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  grid-template-columns: 100%;
+  background-color: black;
+}
+
+.logo img {
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.action-bar {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  background-color: black;
+}
+
+.nav hover {
+  display: grid;
+  background-color: black;
+}
+
+.text {
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  padding-top: 10px;
+  opacity: 0.6;
+  -webkit-transition: padding-top 0.4s;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.response {
+  background-color: black;
+  border: white;
+  color: white;
+  padding: 0.25px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #b5a167;
+}
+
+#three:hover .dropdown-content {
+  display: block;
+}
+
+.nav:hover .response {
+  background-color: black;
+}
+
+#Home {
+  background-color: black;
+}
+#Guides {
+  background-color: black;
+}
+#Location {
+  background-color: black;
+}
+#ContactUs {
+  background-color: black;
+}
+#AboutUs {
+  background-color: black;
+}
+
+.icon {
+  display: block;
+  margin: 40px auto;
+  background-color: #ffae00;
+  width: 3rem;
+  padding: 30px;
+  -webkit-border-radius: 80%;
+  -webkit-box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0);
+  -webkit-transition: box-shadow .4s;
+}
+
+.nav:hover .text {
+  padding-top: 30px;
+  opacity: 1.5;
+  color: #ffae00;
+  font-size: 1.5rem;
+}
+#Home:hover .icon {
+  -webkit-box-shadow: 0px 0px 20px 10px #677bb5;
+
+}
+#Guides:hover .icon {
+  -webkit-box-shadow: 0px 0px 20px 10px #6bb567;
+}
+#Location:hover .icon {
+  -webkit-box-shadow: 0px 0px 20px 10px #8267b5;
+}
+#ContactUs:hover .icon {
+  -webkit-box-shadow: 0px 0px 20px 10px #67b5a1;
+}
+#AboutUs:hover .icon {
+  -webkit-box-shadow: 0px 0px 20px 10px #a167b5;
+}
