@@ -3,7 +3,7 @@
 
 * { box-sizing: border-box; }
 
-main,body {
+body {
   background: #dfe4ea;
   color: #2d3436;
   font-family: 'PT Serif';
@@ -12,7 +12,7 @@ main,body {
   height: 100vh;
 }
 
-main,body,
+body,
 .content__profile,
 .profile,
 .content__bio {
@@ -40,7 +40,7 @@ main,body,
   height: 100%;
 }
 
-.content__profile{
+.content__profile {
   background: #30336b;
   color: white;
 }
