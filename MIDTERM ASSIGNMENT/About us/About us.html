@@ -4,132 +4,60 @@
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>ERROR 404</title>
-            <link rel="stylesheet" href="CSS/reset.css" />
-            <link rel="stylesheet" href="CSS/NavBar.css" />
-            <link rel="stylesheet" href="CSS/MainStyle.css" />
-            <link rel="stylesheet" href="CSS/AboutUs.css" />   
-            <link rel="stylesheet" href="CSS/AbouUs1.css" /> 
+            <link rel="stylesheet" href="reset.css" />
+            <link rel="stylesheet" href="AbouUs1.css" /> 
            
     </head>
 
 
 <body>
-
-    <header>
-        <div>
-            <img class="LOGO"  id= "LOG" src="LOGO.png" alt="logo" />
-   <a href="Home.html">
-        </div>
-        <div class="nav" id="one">
-          <img class="icon" src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon1_zps5f01cb6e.png~c100">
-            <p class="text">Home</p>
-         
-        </div>
-      </a>
-
-    
-  <a href="About us.html">
-        <div class="nav" id="two">
-          <img class="icon" src="About us.png">
-            <p class="text">About us</p>
-        </div>
-        </a>
-
-        <div class="nav" id="four">
-          <img class="icon" src="Location.png">
-            <p class="text">Location</p>
-        </div>
-
-        <div class="nav" id="five">
-          <img class="icon" src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon2_zps07da45f2.png~c100">
-            <p class="text">Our Aim</p>
-        </div>
-
-        <div class="nav" id="six">
-          <img class="icon" src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon6_zps89b62c7e.png~c100">
-            <p class="text">Contact us</p>
-        </div>
-
-        <div class="nav" id="three">
-            <img class="icon" src="Services.png">
-          <button class="response"> <p class="text">Services</p></button>
-          <div class="dropdown-content">
-                  <a href="WMU Network Connection Page.html"> WMU Network Connection</a>
-                  <a href="#">Re-Formatting your Hard Drive</a>
-                  <a href="#">Printing Services</a>
+<main>
+    <div class="container">
+        <div class="container__content">
+          <div class="content__profile"><img src="https://www.dropbox.com/s/tkhmgjpgzdsjdt5/ada-lovelace.png?raw=1" alt="Ava Lovelace's Portrait">
+            <div class="profile">
+              <h1>Ada Lovelace</h1>
+              <div class="content__border"></div>
+              <p>(1815 - 1852)</p>
+              <p>London, England</p>
+            </div>
           </div>
-  </header>
-
-  <main>
-
-      <div class="background"></div>
-<div id="curve" class="card">
-    <div class="footer">
-        <div class="connections">
-            <div class="connection facebook"><div class="icon"></div></div>
-            <div class="connection twitter"><div class="icon"></div></div>
-            <div class="connection behance"><div class="icon"></div></div>
+          <div class="content__bio">
+            <h2>A gifted mathematician, Ada Lovelace is considered to have written instructions for the first computer program in the mid-1800s.</h2>
+            <hr>
+            <p>The daughter of famed poet Lord Byron, Augusta Ada Byron, Countess of Lovelace—better known as "Ada Lovelace"—was born in London on December 10, 1815. Ada showed her gift for mathematics at an early age. She translated an article on an invention
+              by Charles Babbage, and added her own comments. Because she introduced many computer concepts, Ada is considered the first computer programmer. Ada died on November 27, 1852.</p>
+            <p>Ada Lovelace's contributions to the field of computer science were not discovered until the 1950s. Her notes were reintroduced to the world by B.V. Bowden, who republished them in Faster Than Thought: A Symposium on Digital Computing Machines in
+              1953. Since then, Ada has received many posthumous honors for her work. In 1980, the U.S. Department of Defense named a newly developed computer language "Ada," after Lovelace.</p>
+          </div>
         </div>
-        <svg id="curve">
-            <path id="p" d="M0,200 Q80,100 400,200 V150 H0 V50" transform="translate(0 300)" />
-            <rect id="dummyRect" x="0" y="0" height="450" width="400"
-		  fill="transparent" />
-            <!-- slide up-->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,100 400,50 V150 H0 V50" fill="freeze" begin="dummyRect.mouseover" end="dummyRect.mouseout" dur="0.1s" id="bounce1" />
-            <!-- slide up and curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,0 400,50 V150 H0 V50" fill="freeze" begin="bounce1.end" end="dummyRect.mouseout" dur="0.15s" id="bounce2" />
-            <!-- slide down and curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,80 400,50 V150 H0 V50" fill="freeze" begin="bounce2.end" end="dummyRect.mouseout" dur="0.15s" id="bounce3" />
-            <!-- slide down and curve out -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,45 400,50 V150 H0 V50" fill="freeze" begin="bounce3.end" end="dummyRect.mouseout" dur="0.1s" id="bounce4" />
-            <!-- curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,50 400,50 V150 H0 V50" fill="freeze" begin="bounce4.end" end="dummyRect.mouseout" dur="0.05s" id="bounce5" />
+      
+      </div>
 
-            <animate xlink:href="#p" attributeName="d" to="M0,200 Q80,100 400,200 V150 H0 V50" fill="freeze" begin="dummyRect.mouseout" dur="0.15s" id="bounceOut" />
-        </svg>
-        <div class="info">
-            <div class="name">Anfaal Faisal</div>
-            <div class="job">Computer Science Major</div>
+      <div class="containers">
+        <div class="containers__content">
+          <div class="contents__profile"><img src="https://www.dropbox.com/s/tkhmgjpgzdsjdt5/ada-lovelace.png?raw=1" alt="Ava Lovelace's Portrait">
+            <div class="profiles">
+              <h1>Ada Lovelace</h1>
+              <div class="contents__border"></div>
+              <p>(1815 - 1852)</p>
+              <p>London, England</p>
+            </div>
+          </div>
+          <div class="contents__bio">
+            <h2>A gifted mathematician, Ada Lovelace is considered to have written instructions for the first computer program in the mid-1800s.</h2>
+            <hr>
+            <p>The daughter of famed poet Lord Byron, Augusta Ada Byron, Countess of Lovelace—better known as "Ada Lovelace"—was born in London on December 10, 1815. Ada showed her gift for mathematics at an early age. She translated an article on an invention
+              by Charles Babbage, and added her own comments. Because she introduced many computer concepts, Ada is considered the first computer programmer. Ada died on November 27, 1852.</p>
+            <p>Ada Lovelace's contributions to the field of computer science were not discovered until the 1950s. Her notes were reintroduced to the world by B.V. Bowden, who republished them in Faster Than Thought: A Symposium on Digital Computing Machines in
+              1953. Since then, Ada has received many posthumous honors for her work. In 1980, the U.S. Department of Defense named a newly developed computer language "Ada," after Lovelace.</p>
+          </div>
         </div>
-    </div>
-    <div class="card-blur"></div>
-</div>
-
-<div class="background"></div>
-<div id="curve" class="cards">
-    <div class="footer">
-        <div class="connections">
-            <div class="connection facebook"><div class="icon"></div></div>
-            <div class="connection twitter"><div class="icon"></div></div>
-            <div class="connection behance"><div class="icon"></div></div>
-        </div>
-        <svg id="curve">
-            <path id="p" d="M0,200 Q80,100 400,200 V150 H0 V50" transform="translate(0 300)" />
-            <rect id="dummyRect" x="0" y="0" height="450" width="400"
-		  fill="transparent" />
-            <!-- slide up-->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,100 400,50 V150 H0 V50" fill="freeze" begin="dummyRect.mouseover" end="dummyRect.mouseout" dur="0.1s" id="bounce1" />
-            <!-- slide up and curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,0 400,50 V150 H0 V50" fill="freeze" begin="bounce1.end" end="dummyRect.mouseout" dur="0.15s" id="bounce2" />
-            <!-- slide down and curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,80 400,50 V150 H0 V50" fill="freeze" begin="bounce2.end" end="dummyRect.mouseout" dur="0.15s" id="bounce3" />
-            <!-- slide down and curve out -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,45 400,50 V150 H0 V50" fill="freeze" begin="bounce3.end" end="dummyRect.mouseout" dur="0.1s" id="bounce4" />
-            <!-- curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,50 400,50 V150 H0 V50" fill="freeze" begin="bounce4.end" end="dummyRect.mouseout" dur="0.05s" id="bounce5" />
-
-            <animate xlink:href="#p" attributeName="d" to="M0,200 Q80,100 400,200 V150 H0 V50" fill="freeze" begin="dummyRect.mouseout" dur="0.15s" id="bounceOut" />
-        </svg>
-        <div class="info">
-            <div class="name">Michael Capps</div>
-            <div class="job">Computer Science Major</div>
-        </div>
-    </div>
-    <div class="card-blur"></div>
-</div>
-       
+      
+      </div>
 
   </main>
+  
   </body>
 
        
