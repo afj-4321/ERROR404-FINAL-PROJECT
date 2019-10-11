@@ -1,135 +1,40 @@
+
 <!DOCTYPE html>
 <html>
-    <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>ERROR 404</title>
-            <link rel="stylesheet" href="CSS/reset.css" />
-            <link rel="stylesheet" href="CSS/NavBar.css" />
-            <link rel="stylesheet" href="CSS/MainStyle.css" />
-            <link rel="stylesheet" href="CSS/AboutUs.css" />   
-            <link rel="stylesheet" href="CSS/AbouUs1.css" /> 
-           
-    </head>
-
-
+<head>
+  <meta charset="UTF-8">
+  <title>About US</title>  
+  <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="AbouUs1.css"> 
+</head>
 <body>
-
-    <header>
-        <div>
-            <img class="LOGO"  id= "LOG" src="LOGO.png" alt="logo" />
-   <a href="Home.html">
-        </div>
-        <div class="nav" id="one">
-          <img class="icon" src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon1_zps5f01cb6e.png~c100">
-            <p class="text">Home</p>
-         
-        </div>
-      </a>
-
-    
-  <a href="About us.html">
-        <div class="nav" id="two">
-          <img class="icon" src="About us.png">
-            <p class="text">About us</p>
-        </div>
-        </a>
-
-        <div class="nav" id="four">
-          <img class="icon" src="Location.png">
-            <p class="text">Location</p>
-        </div>
-
-        <div class="nav" id="five">
-          <img class="icon" src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon2_zps07da45f2.png~c100">
-            <p class="text">Our Aim</p>
-        </div>
-
-        <div class="nav" id="six">
-          <img class="icon" src="http://rs1377.pbsrc.com/albums/ah58/ebenhafkamp/icon6_zps89b62c7e.png~c100">
-            <p class="text">Contact us</p>
-        </div>
-
-        <div class="nav" id="three">
-            <img class="icon" src="Services.png">
-          <button class="response"> <p class="text">Services</p></button>
-          <div class="dropdown-content">
-                  <a href="WMU Network Connection Page.html"> WMU Network Connection</a>
-                  <a href="#">Re-Formatting your Hard Drive</a>
-                  <a href="#">Printing Services</a>
-          </div>
-  </header>
-
-  <main>
-
-      <div class="background"></div>
-<div id="curve" class="card">
-    <div class="footer">
-        <div class="connections">
-            <div class="connection facebook"><div class="icon"></div></div>
-            <div class="connection twitter"><div class="icon"></div></div>
-            <div class="connection behance"><div class="icon"></div></div>
-        </div>
-        <svg id="curve">
-            <path id="p" d="M0,200 Q80,100 400,200 V150 H0 V50" transform="translate(0 300)" />
-            <rect id="dummyRect" x="0" y="0" height="450" width="400"
-		  fill="transparent" />
-            <!-- slide up-->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,100 400,50 V150 H0 V50" fill="freeze" begin="dummyRect.mouseover" end="dummyRect.mouseout" dur="0.1s" id="bounce1" />
-            <!-- slide up and curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,0 400,50 V150 H0 V50" fill="freeze" begin="bounce1.end" end="dummyRect.mouseout" dur="0.15s" id="bounce2" />
-            <!-- slide down and curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,80 400,50 V150 H0 V50" fill="freeze" begin="bounce2.end" end="dummyRect.mouseout" dur="0.15s" id="bounce3" />
-            <!-- slide down and curve out -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,45 400,50 V150 H0 V50" fill="freeze" begin="bounce3.end" end="dummyRect.mouseout" dur="0.1s" id="bounce4" />
-            <!-- curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,50 400,50 V150 H0 V50" fill="freeze" begin="bounce4.end" end="dummyRect.mouseout" dur="0.05s" id="bounce5" />
-
-            <animate xlink:href="#p" attributeName="d" to="M0,200 Q80,100 400,200 V150 H0 V50" fill="freeze" begin="dummyRect.mouseout" dur="0.15s" id="bounceOut" />
-        </svg>
-        <div class="info">
-            <div class="name">Anfaal Faisal</div>
-            <div class="job">Computer Science Major</div>
-        </div>
-    </div>
-    <div class="card-blur"></div>
+   <div class="main">
+   <div class="container">
+      <div class="image"></div>
+      <div class="text-container">
+         <span></span>
+         <h1>Anfaal Faisal</h1>
+         <p>Hey, I am Anfaal Faisal, Our main aim to make this website was to help students with technological
+            help that sometimes could be a hassle and a problem, feel free to contact us to help us improve the overall experience of our users!
+         </p>
+         <a>blah blah blah blah blah
+         </a>
+      </div>
+   </div>
+</div>
+ 
+<div class="mains">
+  <div class="containers">
+     <div class="images"></div>
+     <div class="text-container">
+        <span></span>
+        <h1>Michael Capps</h1>
+        <p>Get the lastest and trending web development project's source code, first see preview if you need then get the code.
+        </p>
+        <a>Visit Webdevtrick</a>
+     </div>
+  </div>
 </div>
 
-<div class="background"></div>
-<div id="curve" class="cards">
-    <div class="footer">
-        <div class="connections">
-            <div class="connection facebook"><div class="icon"></div></div>
-            <div class="connection twitter"><div class="icon"></div></div>
-            <div class="connection behance"><div class="icon"></div></div>
-        </div>
-        <svg id="curve">
-            <path id="p" d="M0,200 Q80,100 400,200 V150 H0 V50" transform="translate(0 300)" />
-            <rect id="dummyRect" x="0" y="0" height="450" width="400"
-		  fill="transparent" />
-            <!-- slide up-->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,100 400,50 V150 H0 V50" fill="freeze" begin="dummyRect.mouseover" end="dummyRect.mouseout" dur="0.1s" id="bounce1" />
-            <!-- slide up and curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,0 400,50 V150 H0 V50" fill="freeze" begin="bounce1.end" end="dummyRect.mouseout" dur="0.15s" id="bounce2" />
-            <!-- slide down and curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,80 400,50 V150 H0 V50" fill="freeze" begin="bounce2.end" end="dummyRect.mouseout" dur="0.15s" id="bounce3" />
-            <!-- slide down and curve out -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,45 400,50 V150 H0 V50" fill="freeze" begin="bounce3.end" end="dummyRect.mouseout" dur="0.1s" id="bounce4" />
-            <!-- curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,50 400,50 V150 H0 V50" fill="freeze" begin="bounce4.end" end="dummyRect.mouseout" dur="0.05s" id="bounce5" />
-
-            <animate xlink:href="#p" attributeName="d" to="M0,200 Q80,100 400,200 V150 H0 V50" fill="freeze" begin="dummyRect.mouseout" dur="0.15s" id="bounceOut" />
-        </svg>
-        <div class="info">
-            <div class="name">Michael Capps</div>
-            <div class="job">Computer Science Major</div>
-        </div>
-    </div>
-    <div class="card-blur"></div>
-</div>
-       
-
-  </main>
-  </body>
-
-       
+</body>
+</html>
