@@ -30,11 +30,11 @@ div.mains {
   display: flex;
   align-items: center;
   justify-content: center; 
-  padding-bottom: 700px;
+  padding-bottom: 300px;
 }
 
 div.container {
-  background-color: #fcc30f ;
+  background-color: #ffae00;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +45,7 @@ div.container {
 }
 
 div.containers {
-  background-color: #fcc30f ;
+  background-color: #ffae00 ;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -104,7 +104,7 @@ a:hover::before {
 div.image {
   height: 300px;
   width: 100%;
-  background: url("Anfaal.png");
+  background: url("Anfaal.webp");
   background-position: center;
   background-size: cover;
  
