@@ -22,15 +22,17 @@ div.main {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
+  padding-bottom: 100px;
+  margin-top: -50px;
 }
 
 div.mains {
-  height: 100vh;
+  height: 150vh;
   display: flex;
   align-items: center;
   justify-content: center; 
-  padding-bottom: 300px;
+  padding-bottom: 1000px;
 }
 
 div.container {
