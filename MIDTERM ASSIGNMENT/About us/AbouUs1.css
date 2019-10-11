@@ -22,11 +22,17 @@ div.main {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #80EDFF;
-  
-  
+  justify-content: center; 
 }
+
+div.mains {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding-bottom: 700px;
+}
+
 div.container {
   background-color: white;
   display: flex;
@@ -38,11 +44,10 @@ div.container {
   
 }
 
-
- 
 image {
   width: 100%;
 }
+
 h1 {
   font-weight: 600;
   font-size: 36px;
@@ -88,10 +93,22 @@ a:hover::before {
 div.image {
   height: 300px;
   width: 100%;
+  background: url("Anfaal.jpg");
+  background-position: center;
+  background-size: cover;
+ 
+}
+
+div.images {
+  height: 300px;
+  width: 100%;
   background: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg");
   background-position: center;
   background-size: cover;
+  
 }
+
+
 div.text-container {
   margin: 60px 45px 55px;
 }
@@ -99,11 +116,21 @@ div.text-container {
   div.container {
     flex-direction: row;
     width: 100%;
+    
+
   }
 div.image {
     height: 420px;
     min-width: 360px;
+    
   }
+
+  div.images {
+    height: 420px;
+    min-width: 360px;
+    
+  }
+
  div.text-container {
     margin: 0 60px;
     max-width: 660px;
@@ -111,6 +138,6 @@ div.image {
 }
 @media screen and (min-width: 1024px) {
   div.container {
-    max-width: 1200px;
+    max-width: 950px;
   }
 }
