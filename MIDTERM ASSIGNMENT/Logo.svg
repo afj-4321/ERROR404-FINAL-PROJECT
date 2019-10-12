@@ -8,7 +8,6 @@
       .cls-1, .cls-2 {
         fill: #fcc30f;
         font-family: "American Captain";
-        src: url("../MIDTERM ASSIGNMENT/American Captain.otf");
       }
 
       .cls-2 {
