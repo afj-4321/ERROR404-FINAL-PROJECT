@@ -19,8 +19,6 @@ div.main {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  border: solid #222222;
 }
 
 div.mains {
@@ -38,7 +36,8 @@ div.container {
   align-items: center;
   justify-content: center;
   margin: 30px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 1px 100rem rgba(0, 0, 0, 2);
+  border: solid #222222;
 }
 
 div.containers {
@@ -48,7 +47,8 @@ div.containers {
   align-items: center;
   justify-content: center;
   margin: 30px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 1px 100rem rgba(0, 0, 0, 2);
+  border: solid #222222;
 }
 
 image {
@@ -80,7 +80,7 @@ a.design {
 a.design:hover {
   color: #ff3434;
 }
-a.design:hover::before {
+a::before {
   content: "";
   z-index: -1;
   position: absolute;

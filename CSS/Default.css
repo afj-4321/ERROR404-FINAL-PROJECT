@@ -41,16 +41,15 @@ body {
   border-color: #ffae00;
 
   display: grid;
-  grid-template-columns:
-    10px 1fr 10px 1fr 10px
-    1fr 10px 1fr 10px 1fr 10px;
+  grid-template-columns: 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px;
+
   grid-template-rows: 5% 70% 20% 5%;
 
   grid-template-areas:
-    ". . . . . . . . . . ."
-    ".   .  .  logo logo logo logo logo     .    .    . "
-    ". home . guides . location . contactus . aboutus ."
-    ". . . . . . . . . . .";
+    ". . . . . . . . ."
+    ". . logo logo logo logo logo . ."
+    ". home . guides . contactus . aboutus ."
+    ". . . . . . . . .";
 }
 
 .button {
