@@ -100,7 +100,7 @@ a:hover::before {
 div.image {
   height: 300px;
   width: 100%;
-  background: url("Anfaal.webp");
+  background: url("../PICTURES/Anfaal.webp");
   background-position: center;
   background-size: cover;
 }
