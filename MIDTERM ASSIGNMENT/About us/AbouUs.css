@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-html {
+html .text-container {
   font-family: "Questrial", sans-serif;
   box-sizing: border-box;
 }
@@ -15,20 +15,20 @@ span {
   margin-bottom: 10px;
 }
 div.main {
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 100px;
-  margin-top: -50px;
+
+  border: solid #222222;
 }
 
 div.mains {
-  height: 150vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 1000px;
+  padding-bottom: 10px;
 }
 
 div.container {
