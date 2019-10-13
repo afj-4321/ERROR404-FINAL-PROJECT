@@ -76,11 +76,10 @@ body {
 
 .Logo {
   grid-area: logo;
-  place-self: center;
+  align-self: center;
 }
 
-.Logo img {
-}
+
 
 .text {
   font-size: 20pt;
