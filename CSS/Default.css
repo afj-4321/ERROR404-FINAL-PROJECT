@@ -59,7 +59,7 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  float: left;
+ 
   margin: 1fr 20;
   cursor: pointer;
 
@@ -75,6 +75,9 @@ body {
 .Logo {
   grid-area: logo;
   align-self: center;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 .Logo img {
