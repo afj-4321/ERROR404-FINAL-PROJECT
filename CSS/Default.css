@@ -124,6 +124,7 @@ body {
 }
 
 .Footer {
+  padding: 3rem;
   grid-area: footer;
   background-color: #aaa8aa;
   height: auto;
@@ -132,4 +133,3 @@ body {
   border: solid;
   border-color: #ffae00;
 }
-
