@@ -26,6 +26,7 @@
 .WiFi {
   grid-area: WiFi;
   background-color: green;
+  background-image: image(PICTURES/WiFi logo.svg);
 
   min-width: 100%;
   height: 200px;
