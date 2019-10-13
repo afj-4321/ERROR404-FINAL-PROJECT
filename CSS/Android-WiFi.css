@@ -1,0 +1,14 @@
+.guide {
+     
+    display: grid;
+    grid-template-columns: 1rem 1fr 3fr 1fr 1rem;
+    grid-template-rows: 1rem auto 1rem;
+  
+    grid-template-areas:
+    ". . . . . "
+    ". Guides . "
+    ". . . . . ";
+    
+    text-align: center;
+    height: 1000px;;
+  }
