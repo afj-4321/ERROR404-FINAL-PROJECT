@@ -14,7 +14,7 @@ body {
 
   display: grid;
   grid-template-columns: 1fr 1rem 80% 1rem 1fr;
-  grid-template-rows: 1rem 40rem 1rem auto 1rem 5rem 1rem;
+  grid-template-rows: 1rem 40rem 1rem auto 1rem auto 1rem;
 
   grid-template-areas:
     ". . . . . "
@@ -76,8 +76,6 @@ body {
   grid-area: logo;
   align-self: center;
 }
-
-
 
 .text {
   font-size: 20pt;
