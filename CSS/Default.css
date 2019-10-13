@@ -30,7 +30,6 @@ body {
   text-align: center;
 }
 
-
 .Header {
   grid-area: header;
   background-color: #222222;
@@ -78,23 +77,24 @@ body {
   align-self: center;
 }
 
+.Logo img {
+  object-fit: center;
+  width: 100%;
+  height: auto;
+  max-height: 30rem;
+}
 .text {
   font-size: 20pt;
   font-family: "Share Tech Mono", monospace;
 }
-.text-justify{
-    font-size: 10pt;
-    font-family: "Share Tech Mono", monospace;
-}
-
-.rearrange{
-
+.text-justify {
   font-size: 10pt;
   font-family: "Share Tech Mono", monospace;
+}
 
-  
-
-
+.rearrange {
+  font-size: 10pt;
+  font-family: "Share Tech Mono", monospace;
 }
 
 .Home {
@@ -150,7 +150,6 @@ body {
   font-size: 15px;
   line-height: 24px;
   text-align: left;
-  
 }
 .Footer hr {
   border-top-color: #bbb;
@@ -172,7 +171,6 @@ body {
 .Footer a:hover {
   color: #3366cc;
   text-decoration: none;
-  
 }
 .footer-links {
   padding-left: 0;
