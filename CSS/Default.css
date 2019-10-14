@@ -222,8 +222,15 @@ body {
 .Location{
 padding-top: 15px;
 font-family:"Share Tech Mono", monospace; 
-font-size: 20px;
+font-size: 30px;
 
+}
+
+.Loc2{
+ color: #ffae00;
+padding-top: 10px;
+font-family:"Share Tech Mono", monospace; 
+font-size: 20px;
 }
 
 .PageLinks{
@@ -235,6 +242,10 @@ border-bottom: 3px solid #ffae00;
 padding-bottom: 10px;
 }
 
+.links2{
+  color: #ffae00;
+  padding-top: 15px;
+}
 .ContactUss{
   padding-top: 30px;
   font-family:"Share Tech Mono", monospace; 
@@ -253,17 +264,11 @@ ul #Contactss{
   display: inline;
   text-align: right;
 }
-u{
-  
-  color: #ffae00;
-}
-
 
 .Services{
   font-size: 30px;
   border-bottom: 5px solid #ffae00;
-  padding-bottom: 10px ;
- 
+  padding-bottom: 10px;
 }
 
 .Supports{

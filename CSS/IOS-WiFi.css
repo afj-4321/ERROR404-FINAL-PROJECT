@@ -26,6 +26,10 @@ h1 {
 .Step{
   grid-area: step;
   
+  background-color: black;
+
+  padding-top: 3rem;
+
   text-align: center;
 
   display: grid;
@@ -33,6 +37,7 @@ h1 {
   grid-template-rows: auto;
 
   grid-template-areas:
+  
   " step1 "
   " step2 "
   " step3 "
@@ -44,10 +49,17 @@ h1 {
   
   border: solid #222222;
   border-radius: 5px;
+
+  color: white;
 }
 
 .Notes{
   grid-area: notes;
+
+  background-color: #ffae00;
+
+  padding-top: 3rem;
+
   text-align: center;
 
   display: grid;
@@ -66,10 +78,18 @@ h1 {
   
   border: solid #222222;
   border-radius: 5px;
+
+  color: black;
 }
 
 .Pics{
   grid-area: pics;
+
+  background-color: black;
+
+  padding-top: 3rem;
+  
+  text-align: center;
 
   display: grid;
   grid-template-columns: 100%;
