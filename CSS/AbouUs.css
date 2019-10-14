@@ -110,7 +110,7 @@ div.image {
 div.images {
   height: 300px;
   width: 100%;
-  background: url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg");
+  background: url("../PICTURES/Michael-pic.jpg");
   background-position: center;
   background-size: cover;
 }
