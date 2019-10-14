@@ -6,9 +6,21 @@
   
     grid-template-areas:
     ". . . . . "
-    ". Guides . "
+    ". step help pic . "
     ". . . . . ";
     
     text-align: center;
     height: 1000px;;
+  }
+  
+  .Step{
+    grid-area: step;
+  }
+
+  .Help{
+    grid-area: step;
+  }
+
+  .Pic{
+    grid-area: pic;
   }
