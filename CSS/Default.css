@@ -133,10 +133,10 @@ body {
 }
 
 .footer #button {
-  width: 35px;
-  height: 35px;
+  width: 10px;
+  height: 10px;
   border: #727172 12px solid;
-  border-radius: 30px;
+  border-radius: 10px;
   margin: 0 auto;
   position: relative;
   -webkit-transition: all 1s ease;
@@ -166,7 +166,7 @@ body {
 	left:0;
 	position:fixed;
   width: 80%;
-  height: 3em;
+  height: 0.5em;
   overflow:hidden;
   padding-left: 10%;
   padding-bottom:1%;
@@ -232,7 +232,7 @@ font-size: 20px;
 padding-top: 30px;
 font-family:"Share Tech Mono", monospace; 
 font-size: 20px;
-text-align: left;
+text-align: center;
 border-bottom: 3px solid #ffae00;
 padding-bottom: 10px;
 }
@@ -261,4 +261,31 @@ u{
 }
 
 
+.Services{
+  font-size: 30px;
+  border-bottom: 5px solid #ffae00;
+  padding-bottom: 10px ;
+ 
+}
 
+.Supports{
+  text-align: left;
+  padding-left: 15px;
+  font-size: 20px;
+  border: 5px dotted #ffae0f;
+  
+
+
+}
+
+.mainPara{
+  font-size: 20px;
+  padding: 20px;
+}
+
+.Bullets{
+  text-align: left;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-top: 15px ;
+}
