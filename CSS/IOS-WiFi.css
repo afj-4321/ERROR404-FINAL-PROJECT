@@ -1,14 +1,97 @@
 .guide {
-     
-    display: grid;
-    grid-template-columns: 1rem 1fr 3fr 1fr 1rem;
-    grid-template-rows: 1rem auto 1rem;
+  padding: 2rem;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1rem 1fr 1rem 3fr 1rem 1fr 1rem;
+  grid-template-rows: 1rem auto 1rem;
+
+  grid-template-areas:
+  ". . . . . . ."
+  ". step . notes . pics . "
+  ". . . . . . .";
   
-    grid-template-areas:
-    ". . . . . "
-    ". Guides . "
-    ". . . . . ";
-    
-    text-align: center;
-    height: 1000px;;
-  }
+  text-align: center;
+  
+}
+
+
+h1 {
+  padding-top: 4rem;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0 0 15px;
+  color: #fff;
+}
+
+.Step{
+  grid-area: step;
+  
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+
+  grid-template-areas:
+  " step1 "
+  " step2 "
+  " step3 "
+  " step4 "
+  " step5 "
+  " step6 "
+  ;
+
+  
+  border: solid #222222;
+  border-radius: 5px;
+}
+
+.Notes{
+  grid-area: notes;
+  text-align: center;
+
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+
+  grid-template-areas:
+  " note1 "
+  " note2 "
+  " note3 "
+  " note4 "
+  " note5 "
+  " note6 "
+  ;
+
+  
+  border: solid #222222;
+  border-radius: 5px;
+}
+
+.Pics{
+  grid-area: pics;
+
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+
+  grid-template-areas:
+  " pic1 "
+  " pic2 "
+  " pic3 "
+  " pic4 "
+  " pic5 "
+  " pic6 "
+  ;
+
+  
+  border: solid #222222;
+  border-radius: 5px;
+
+}
+.pic img{
+  object-fit: cover;
+  width: auto;
+  max-height: 200px;
+  max-width: 300px;
+}

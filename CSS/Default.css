@@ -29,17 +29,20 @@ body {
 
 .Header {
   grid-area: header;
-  background-color: #222222;
+  background-color:black;
+
   border-radius: 1rem;
   border: solid;
   border-color: #ffae00;
   display: grid;
   grid-template-columns: 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px;
-  grid-template-rows: 5% 70% 20% 5%;
+
+  grid-template-rows: 5% 70% 5% 20% 5%;
 
   grid-template-areas:
     ". . . . . . . . ."
-    ". . logo logo logo logo logo . ."
+    ". . . logo logo logo . . ."
+    ". . . . . . . . ."
     ". home . guides . contactus . aboutus ."
     ". . . . . . . . .";
 }
@@ -66,17 +69,12 @@ body {
 
 .Logo {
   grid-area: logo;
-  align-self: center;
-  position: absolute;
-  left: 0;
-  right: 0;
+  margin-bottom: 2rem;
 }
 
 .Logo img {
-  object-fit: center;
-  width: 100%;
-  height: auto;
-  max-height: 30rem;
+  max-width: 100%;
+  height: auto;  
 }
 
 .text {
