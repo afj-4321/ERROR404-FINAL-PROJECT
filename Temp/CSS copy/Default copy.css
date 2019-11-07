@@ -7,7 +7,6 @@ a:visited {
 
 body {
   background: #b5a167;
-  min-width: 500px;
 }
 
 #TopPadding {
@@ -18,7 +17,7 @@ body {
   background-color: black;
   min-height: 5rem;
 
-  border-radius: .5rem;
+  border-radius: 1rem;
   border: solid;
   border-color: #ffae00;
 
@@ -55,7 +54,7 @@ body {
 #Body {
   min-height: 5rem;
   background-color: #6c4023;
-  border-radius: .5rem;
+  border-radius: 1rem;
   border: solid;
   border-color: #ffae00;
 }
@@ -65,11 +64,8 @@ body {
 }
 
 #Footer {
+
   min-height: 5rem;
-  background-color: #6c4023;
-  border-radius: .5rem;
-  border: solid;
-  border-color: #ffae00;
 }
 
 #BottomPadding {
