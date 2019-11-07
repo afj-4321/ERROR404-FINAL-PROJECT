@@ -9,63 +9,69 @@ body {
   background: #b5a167;
 }
 
-#TopPadding {
-  min-height: 1rem;
+#topPadding {
+  height: 1rem;
 }
+#header {
+  height: 40rem;
 
-#Header {
   background-color: black;
-  min-height: 5rem;
 
   border-radius: 1rem;
   border: solid;
   border-color: #ffae00;
-
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
-
-
-#Logo{
-
+#Logo {
 }
 
-#Buttons{
-
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#textButtons{
-  text-align: center;
+.text {
   font-size: 20pt;
+  font-family: "Share Tech Mono", monospace;
+}
+.text-justify {
+  font-size: 10pt;
+  font-family: "Share Tech Mono", monospace;
+}
 
-  padding-bottom: : 0.10rem;
+#Buttons {
+  grid-area: home;
+  align-self: center;
+  margin: auto;
+  text-align: center;
+}
 
-  white-space: pre;
-
-  color: white;
-  text-decoration: none;
-  display: inline-block;
+.Home {
+  grid-area: home;
+  align-self: center;
+  margin: auto;
+  text-align: center;
 }
 
 #padding0 {
-  min-height: 1rem;
+  height: 1rem;
 }
-
-#Body {
-  background-color: black;
-  min-height: 5rem;
+#main {
+  background-color: #6c4023;
+  border-radius: 1rem;
+  border: solid;
+  border-color: #ffae00;
+  align-self: stretch;
 }
-
-#Padding1 {
-  min-height: 1rem;
+#padding1 {
+  height: 1rem;
 }
-
-#Footer {
-  background-color: black;
-  min-height: 5rem;
+#footer {
+  background: gold;
+  min-height: 10rem;
+  height: auto;
 }
-
-#BottomPadding {
-  min-height: 1rem;
+#bottomPadding {
+  height: 1rem;
 }
