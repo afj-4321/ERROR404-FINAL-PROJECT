@@ -27,6 +27,7 @@
 #product-back {
   display: none;
   transform: rotateY(180deg);
+
 }
 #product-card.animate #product-back,
 #product-card.animate #product-front {
