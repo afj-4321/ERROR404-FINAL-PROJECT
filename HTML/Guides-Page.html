@@ -18,7 +18,36 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- SmoothScroll -->           
+        <script type="text/javascript" src="../assets/smoothscroll/smoothscroll.js"></script>
+      <!-- Waypoints -->
+      <script src="../Javascript/waypoints.min.js"></script>
+        <!-- classie.js -->
+      <script src="../Javascript/classie.js"></script>
+        <!-- FlexSlider -->
+        <script src="../assets/flexslider/jquery.flexslider.js"></script>
+      <!-- Modernizr -->
+        <script src="../Javascript/modernizr.js"></script>
+      <!-- Text Rotator -->
+      <script src="../assets/textrotator/jquery.simple-text-rotator.js"></script>
+      <!-- Lightbox.js -->
+        <script src="../assets/lightbox/js/lightbox.min.js"></script>
+      <!-- Theme JavaScript Core -->
+      <script src="../Javascript/main.js"></script>
+      <script src="../Javascript/script.js"></script>
     <script src="../Javascript/Guides.js"></script>
+        <!-- Bootstrap -->
+        <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font-Awesome -->
+          <link href="../assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Lightbox -->
+        <link href="../assets/lightbox/css/lightbox.css" rel="stylesheet">
+          <!-- Text Rotator-->
+        <link href="../assets/textrotator/simpletextrotator.css" rel="stylesheet">
+        <!-- FlexSlider -->
+          <link href="../assets/flexslider/flexslider.css" rel="stylesheet">
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
@@ -94,52 +123,53 @@
       <div class="row justify-content-center">
         <div class="col-md-10" id="Body">
 
-            <div id="make-3D-space">
-                <div id="product-card">
-                  <div id="product-front">
-                    <div class="shadow"></div>
-                    <img src="../PICTURES/WMU-LOGO.png" alt="" />
-                    <div class="image_overlay"></div>
-                    <div id="view_details">View details</div>
-                    <div class="stats">
-                      <div class="stats-container">
-                        <span class="product_name">Help Desk Guides</span>
-                        <p>Search your concern</p>
-              
-                        <div class="product-options">
-                          <strong>Guides</strong>
-                          <span>Malware and WiFi</span>
-  
-                        </div>
-                      </div>
+           <!-- ==========================
+        SERVICE SECTION 
+        =========================== -->
+        <section class="features text-center section-padding" id="service">
+          <div class="container">
+        <!-- Headline -->
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Things I specialize in</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+          <div class="services">
+          <!-- Service Box 1 -->
+                  <div class="col-md-4 wp2 item">
+                    <div class="icon">
+                      <i class="fa fa-camera"></i><!-- Icon -->
                     </div>
+                    <h2>Coding</h2><!-- Title -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
+                    primis in faucibus.</p><!-- Description -->
                   </div>
-                  <div id="product-back">
-                    <div class="shadow"></div>
-                    <div id="carousel">
-                      <ul>
-                        <li><img src="../PICTURES/Malware-intro.png" alt="" /></li>
-                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/t-shirt-large2.png" alt="" /></li>
-                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/t-shirt-large3.png" alt="" /></li>
-                      </ul>
-                      <div class="arrows-perspective">
-                        <div class="carouselPrev">
-                          <div class="y"></div>
-                          <div class="x"></div>
-                        </div>
-                        <div class="carouselNext">
-                          <div class="y"></div>
-                          <div class="x"></div>
-                        </div>
-                      </div>
+          <!-- Service Box 2 -->
+                  <div class="col-md-4 wp2 item delay-05s">
+                    <div class="icon">
+                      <i class="fa fa-desktop"></i><!-- Icon -->
                     </div>
-                    <div id="flip-back">
-                      <div id="cy"></div>
-                      <div id="cx"></div>
-                    </div>
+                    <h2>Web Designer</h2><!-- Title -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
+                    primis in faucibus.</p><!-- Description -->
                   </div>
-                </div>
-              </div>              
+          <!-- Service Box 3 -->
+                  <div class="col-md-4 wp2 item delay-1s">
+                    <div class="icon">
+                      <i class="fa fa-cubes"></i><!-- Icon -->
+                    </div>
+                    <h2>3D Artist</h2><!-- Title -->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
+                    primis in faucibus.</p><!-- Description -->
+                  </div>
+          </div>
+                  <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </section>           
         </div>
       </div>
 
@@ -155,5 +185,14 @@
       <div class="row justify-content-center"id="BottomPadding"></div>
 
     </div>
+
+    	<!-- TEXT ROTATOR SETTINGS -->
+      <script type="text/javascript">
+        $(".rotate").textrotator({
+          animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+          separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+          speed: 2000 // How many milliseconds until the next word show.
+        });
+        </script>
   </body>
 </html>
