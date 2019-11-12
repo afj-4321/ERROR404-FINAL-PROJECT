@@ -3,7 +3,7 @@ body {
   
 }
 h1, p, span {
-  font-family: monospace;
+
   font-weight: 300;
   text-align: center;
   color: rgba(0, 0, 0, 0.5);
@@ -20,7 +20,7 @@ h1, p, span {
   margin-bottom: 3rem;
 }
 .box {
-  width: 15rem;
+  width: 40rem;
   height: 20rem;
   padding: 0 2rem 3rem;
   transition:
@@ -39,11 +39,43 @@ h1, p, span {
     -webkit-filter 0.5s linear 0.3s;
   /*transform-origin: top center;*/
 }
-.guidess {
+.guidess1 {
+  position: relative;
+  width: 100%;
+  height: 103%;
+  border-radius: 0.5rem;
+  background-image: url(../PICTURES/Malware-intro.png);
+  background-color:#fff;
+  background-position: top 2rem center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 0   rgba(0, 0, 0, 0.1);
+  transition:
+    box-shadow 0.5s linear,
+    height 0.1s linear 0s;
+}
+
+.guidess2 {
   position: relative;
   width: 100%;
   height: 100%;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
+  background-image: url(https://www.lamnia.com/images/sg-150-Shirts_and_T-Shirts.jpg);
+  background-color: #fff;
+  background-position: top 3rem center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+  transition:
+    box-shadow 0.5s linear,
+    height 0.1s linear 0s;
+}
+
+.guidess3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
   background-image: url(https://www.lamnia.com/images/sg-150-Shirts_and_T-Shirts.jpg);
   background-color: #fff;
   background-position: top 3rem center;
