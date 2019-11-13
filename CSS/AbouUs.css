@@ -1,49 +1,46 @@
-#Body{
+#Body {}
 
+#CardPadding {
+    min-height: 2rem;
 }
 
-#CardPadding{
-  min-height: 2rem;
+#CardPaddingTop {
+    min-height: 2rem;
 }
 
-#CardPaddingTop{
-  min-height: 2rem;
+#CardPhoto {
+    background-color: #ffae00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: 0px 1px 100rem rgba(0, 0, 0, 2);
+    border: solid #222222;
+    border-radius: 5px;
 }
 
-#CardPhoto{
-  background-color: #ffae00;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 30px;
-  box-shadow: 0px 1px 100rem rgba(0, 0, 0, 2);
-  border: solid #222222;
-  border-radius: 5px;
-
+#Anfaal {
+    height: 300px;
+    width: 100%;
+    background: url("../PICTURES/Anfaal.webp");
+    background-position: center;
+    background-size: cover;
 }
 
-#Anfaal{
-  height: 300px;
-  width: 100%;
-  background: url("../PICTURES/Anfaal.webp");
-  background-position: center;
-  background-size: cover;
+#Michael {
+    height: 300px;
+    width: 100%;
+    background: url("../PICTURES/Michael-pic.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-#Michael{
-  height: 300px;
-  width: 100%;
-  background: url("../PICTURES/Michael-pic.jpg");
-  background-position: center;
-  background-size: cover;
+#CardInfo {
+    background-color: red;
+    min-height: 5rem;
 }
 
-#CardInfo{
-  background-color: red;
-  min-height: 5rem;
-}
-
-#CardPaddingBottom{
-  min-height: 2rem;
+#CardPaddingBottom {
+    min-height: 2rem;
 }
