@@ -1,136 +1,104 @@
-body {
-  margin: 0;
-  
-}
-h1, p, span {
-
-  font-weight: 300;
-  text-align: center;
-  color: rgba(0, 0, 0, 0.5);
-}
-.GuidesOption, .GuidesOption + .OptionSelect {
-  margin: 2rem 1rem;
-}
-.wrapper {
-  max-width: 60rem;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 3rem;
-}
-.box {
-  width: 40rem;
-  height: 20rem;
-  padding: 0 2rem 3rem;
-  transition:
-    opacity 0.5s linear 0.3s,
-    -webkit-transform 0.3s linear 0s,
-    -webkit-filter 0.5s linear 0.3s;
-  transition:
-    transform 0.3s linear 0s,
-    filter 0.5s linear 0.3s,
-    opacity 0.5s linear 0.3s;
-  transition:
-    transform 0.3s linear 0s,
-    filter 0.5s linear 0.3s,
-    opacity 0.5s linear 0.3s,
-    -webkit-transform 0.3s linear 0s,
-    -webkit-filter 0.5s linear 0.3s;
-  /*transform-origin: top center;*/
-}
-.guidess1 {
-  position: relative;
-  width: 100%;
-  height: 103%;
-  border-radius: 0.5rem;
-  background-image: url(../PICTURES/Malware-intro.png);
-  background-color:#fff;
-  background-position: top 2rem center;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  box-shadow: 0 0 0   rgba(0, 0, 0, 0.1);
-  transition:
-    box-shadow 0.5s linear,
-    height 0.1s linear 0s;
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+.snip1418 {
+    font-family: "Raleway", Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 62px;
+    min-width: 230px;
+    max-width: 315px;
+    width: 100%;
+    background: black;
+    text-align: left;
+    color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-perspective: 20em;
+    perspective: 20em;
 }
 
-.guidess2 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border-radius: 0.5rem;
-  background-image: url(https://www.lamnia.com/images/sg-150-Shirts_and_T-Shirts.jpg);
-  background-color: #fff;
-  background-position: top 3rem center;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
-  transition:
-    box-shadow 0.5s linear,
-    height 0.1s linear 0s;
+.snip1418 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
-.guidess3 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border-radius: 0.5rem;
-  background-image: url(https://www.lamnia.com/images/sg-150-Shirts_and_T-Shirts.jpg);
-  background-color: #fff;
-  background-position: top 3rem center;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
-  transition:
-    box-shadow 0.5s linear,
-    height 0.1s linear 0s;
+.snip1418 img {
+    max-width: 100%;
+    vertical-align: top;
+    position: relative;
 }
-.productName {
-  display: block;
-  padding: 1rem 0.5rem;
+
+.snip1418 .add-to-cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    opacity: 0;
+    background-color: black;
+    -webkit-transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
+    -webkit-transform-origin: 100% 0;
+    -ms-transform-origin: 100% 0;
+    transform-origin: 100% 0;
 }
-.description {
-  position: absolute;
-  bottom: 1rem;
-  left: 0;
-  right: 0;
-  display: block;
-  padding: 0 1.5rem;
-  opacity: 0;
-  transition: opacity 0.1s linear 0s;
+
+.snip1418 .add-to-cart i {
+    display: inline-block;
+    margin-right: 10px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: gold;
+    color: #ffffff;
+    font-size: 1.4em;
 }
-.wrapper:hover .box:not(:hover)  {
-  -webkit-filter: blur(3px);
-          filter: blur(3px);
-  opacity: 0.5;
+
+.snip1418 figcaption {
+    padding: 20px;
 }
-.box:hover  {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  transition:
-    opacity 0.1s linear 0s,
-    -webkit-transform 0.3s linear 0.3s,
-    -webkit-filter 0.1s linear 0s;
-  transition:
-    transform 0.3s linear 0.3s,
-    filter 0.1s linear 0s,
-    opacity 0.1s linear 0s;
-  transition:
-    transform 0.3s linear 0.3s,
-    filter 0.1s linear 0s,
-    opacity 0.1s linear 0s,
-    -webkit-transform 0.3s linear 0.3s,
-    -webkit-filter 0.1s linear 0s;
+
+.snip1418 h3,
+.snip1418 p {
+    margin: 0;
 }
-.box:hover .product {
-  height: 23rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
-  transition:
-    box-shadow 1s linear,
-    height 0.3s linear 0.5s;
+
+.snip1418 h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
-.box:hover .description {
-  opacity: 1;
-  transition: opacity 0.3s linear 0.75s;
+
+.snip1418 p {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.snip1418 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.snip1418:hover .add-to-cart,
+.snip1418.hover .add-to-cart {
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+}
+
+.snip1418:hover .add-to-cart i,
+.snip1418.hover .add-to-cart i {
+    background-color: #ffae00;
 }
