@@ -59,3 +59,18 @@
   text-align: center;
   color: white;
 }
+
+#Row2 h1{
+  
+}
+
+#Row3{
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+#Row3 iframe{
+  border: solid;
+  border-color: black;
+}

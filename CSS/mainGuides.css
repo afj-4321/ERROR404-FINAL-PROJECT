@@ -1,7 +1,7 @@
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
-.snip1418 {
-    font-family: "Raleway", Arial, sans-serif;
+
+.content {
     position: relative;
     overflow: hidden;
     margin: 62px;
@@ -17,22 +17,26 @@
     transform: translateZ(0);
     -webkit-perspective: 20em;
     perspective: 20em;
+
+    border-radius: .5rem;
+    border: solid;
+    border-color: #ffae00;
 }
 
-.snip1418 * {
+.content * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 
-.snip1418 img {
+.content img {
     max-width: 100%;
     vertical-align: top;
-    position: relative;
+    padding: 1rem;
 }
 
-.snip1418 .add-to-cart {
+.content .ClickHere {
     position: absolute;
     top: 0;
     right: 0;
@@ -50,7 +54,7 @@
     transform-origin: 100% 0;
 }
 
-.snip1418 .add-to-cart i {
+.content .ClickHere i {
     display: inline-block;
     margin-right: 10px;
     width: 40px;
@@ -61,29 +65,32 @@
     font-size: 1.4em;
 }
 
-.snip1418 figcaption {
+.content figcaption {
     padding: 20px;
 }
 
-.snip1418 h3,
-.snip1418 p {
+.content h3,
+.content p {
     margin: 0;
 }
 
-.snip1418 h3 {
+.content h3 {
     font-size: 1.5em;
     font-weight: 700;
     margin-bottom: 10px;
     text-transform: uppercase;
+    text-align: center;
 }
 
-.snip1418 p {
+.content p {
     font-size: 0.9em;
     letter-spacing: 1px;
     font-weight: 400;
+    text-align: center;
+    vertical-align:bottom;
 }
 
-.snip1418 a {
+.content a {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -91,14 +98,14 @@
     right: 0;
 }
 
-.snip1418:hover .add-to-cart,
-.snip1418.hover .add-to-cart {
+.content:hover .ClickHere,
+.content.hover .ClickHere {
     opacity: 1;
     -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
 }
 
-.snip1418:hover .add-to-cart i,
-.snip1418.hover .add-to-cart i {
+.content:hover .ClickHere i,
+.content.hover .ClickHere i {
     background-color: #ffae00;
 }
