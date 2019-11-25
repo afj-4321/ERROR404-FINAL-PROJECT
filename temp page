@@ -1,0 +1,13 @@
+<label for="FName">Full Name:</label>
+<input type="text" id="fname" name="fullname" placeholder="Enter your full name..">
+
+<label for="BroncoNID">Bronco NetId:</label>
+<input type="text" id="BNID" name="bronconetid" placeholder="Enter your Bronco NetID..">
+
+<label for="Email">Email:</label>
+<input type="email" id="email" name="email_address" placeholder="Your Email..">
+
+<label for="subject">Subject</label>
+<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+<input type="submit" value="Submit">
