@@ -1,11 +1,35 @@
 #AboutUs{
   margin: 2rem;
+
 }
 
 #Anfaal{
-  background-color: red;
+  background-color: black;
+  border-radius: .5rem;
+  border: solid;
+  border-color: #ffae00;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  
 }
 
 #Michael{
-  background-color: green;
+  background-color: black;
+  border-radius: .5rem;
+  border: solid;
+  border-color: #ffae00;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+#Picture{
+  padding: 1rem;
+}
+
+#Picture img{
+  min-width: 200px;
+  width: 100%;
+  height: auto;
 }
