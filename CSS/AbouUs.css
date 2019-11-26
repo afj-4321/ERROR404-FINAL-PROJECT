@@ -11,7 +11,7 @@
   padding: 1rem;
   color: white;
   text-align: center;
-  
+  margin-bottom: 2rem;
 }
 
 #Michael{
@@ -22,6 +22,7 @@
   padding: 1rem;
   color: white;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 #Picture{
@@ -32,4 +33,19 @@
   min-width: 200px;
   width: 100%;
   height: auto;
+}
+
+.text h1{
+  font-size: 35pt;
+
+}
+
+.text h2{
+  font-size: 18pt;
+  padding-bottom: 1rem;
+}
+
+.text h3{
+  font-size: 14pt;
+  padding-bottom: 1rem;
 }
