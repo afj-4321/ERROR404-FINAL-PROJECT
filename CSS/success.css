@@ -190,7 +190,7 @@ input[type=search]::-webkit-search-decoration {
 }
 
 fieldset {
-    border: 1px solid silver;
+    border: 1px solid black;
     margin: 0 2px;
     padding: .35em .625em .75em
 }
@@ -229,9 +229,9 @@ html {
 }
 
 body {
-    background: #fff;
+    background: #b5a167;
     margin: auto;
-    color: #333;
+    color: black;
 }
 
 
@@ -280,7 +280,7 @@ a:active {
     display: block;
     margin: 30px auto;
     padding: 10px;
-    border: 2px solid #333;
+    border: 2px solid black;
     text-transform: uppercase;
     font-weight: bold;
     background: #333;
@@ -411,7 +411,7 @@ h1 {
         height: 440px;
         margin-top: -250px;
         font-size: 20px;
-        border: 3px solid #999;
+        border: 3px solid black;
         box-shadow: 6px 6px 0px #333;
     }
     h1 {
