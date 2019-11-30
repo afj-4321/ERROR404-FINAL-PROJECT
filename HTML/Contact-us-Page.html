@@ -6,7 +6,7 @@
 
     <title>Error 404 Contact us</title>
 
-    <link rel="shortcut icon" type="image/png" href="../HTML/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="../HTML/favicon.ico" />
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -101,31 +101,31 @@
 
 
         <div class="row justify-content-center">
-        <div class="col-md-10" id="Body">
+            <div class="col-md-10" id="Body">
 
-          <div class="row justify-content-center" id="BodyPaddingTop">
-
-          </div>
-
-                <div class="row justify-content-center" >
-                  <div class="col-md-8" id="container">
-
-                  <form action="/action_page.php">
-
-                    <label for="Name">Full Name:</label>
-                    <input type="text" id="Name" placeholder="Enter your full name.."/>
-
-                    <label for="BNID">BNID:</label>
-                    <input type="text" id="BNID" placeholder="Enter your bronco NetID.."/>
-
-                    <label for="Message">Message:</label>
-                    <textarea id="Message" name="Message" placeholder="Enter your Message.." style="height:200px"></textarea>
-
-                    <input type="submit" value="Submit">
-
-                  </form>
+                <div class="row justify-content-center" id="BodyPaddingTop">
 
                 </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-md-8" id="container">
+
+                        <form action="contact-form-handler.php" method="post" name="contactus">
+
+                            <label for="Name">Full Name:</label>
+                            <input type="text" name="name" id="Name" placeholder="Enter your full name.." />
+
+                            <label for="BNID">BNID:</label>
+                            <input type="text" name="BNID" id="BNID" placeholder="Enter your bronco NetID@wmich.edu.." />
+
+                            <label for="Message">Message:</label>
+                            <textarea id="Message" name="Message" placeholder="Enter your Message.." style="height:200px"></textarea>
+
+                            <input type="submit" value="Submit">
+
+                        </form>
+
+                    </div>
 
                 </div>
 
@@ -140,61 +140,68 @@
 
 
         <div class="row justify-content-center">
-          <div class="col-md-10" id="Footer">
+            <div class="col-md-10" id="Footer">
 
-            <div class="row justify-content-center">
+                <div class="row justify-content-center">
 
-            <div class="col-lg" id="FRow0">
-              <h1>SERVICES</h1>
-              <br>
-              <h2>WiFi Setup</h2>
-              <br>
-              <h2>Malware</h2>
-              <br>
-              <h2>Two-Factor Authentication</h2>
-              <br>
+                    <div class="col-lg" id="FRow0">
+                        <h1>SERVICES</h1>
+                        <br>
+                        <h2>WiFi Setup</h2>
+                        <br>
+                        <h2>Malware</h2>
+                        <br>
+                        <h2>Two-Factor Authentication</h2>
+                        <br>
 
+                    </div>
+
+                    <div class="col-lg" id="FRow1">
+
+                        <h1>QUICKLINKS</h1>
+                        <span></span>
+                        <br>
+                        <h2>Will add</h2>
+                        <br>
+                        <h2>Will add</h2>
+                        <br>
+                        <h2>Will add</h2>
+                        <br>
+
+
+                    </div>
+
+                    <div class="col-lg" id="FRow2">
+                        <h1>LOCATION</h1>
+                        <br>
+                        <h2>Kalamazoo MI 49008-5200 USA</h2>
+                        <br>
+                        <h2>(269) 387-1000</h2>
+                        <br>
+                        <h2>© 2019 All rights reserved.</h2>
+                        <br>
+                    </div>
+
+                    <div class="col-lg align-self-center" id="FRow3">
+                        <iframe src="https://snazzymaps.com/embed/199660" width="100%" height="200px"></iframe>
+                    </div>
+
+
+                </div>
             </div>
-
-            <div class="col-lg" id="FRow1">
-
-              <h1>QUICKLINKS</h1>
-              <span></span>
-              <br>
-              <h2>Will add</h2>
-              <br>
-              <h2>Will add</h2>
-              <br>
-              <h2>Will add</h2>
-              <br>
-
-
-            </div>
-
-            <div class="col-lg" id="FRow2">
-              <h1>LOCATION</h1>
-              <br>
-              <h2>Kalamazoo MI 49008-5200 USA</h2>
-              <br>
-              <h2>(269) 387-1000</h2>
-              <br>
-              <h2>© 2019 All rights reserved.</h2>
-              <br>
-            </div>
-
-            <div class="col-lg align-self-center" id="FRow3">
-              <iframe src="https://snazzymaps.com/embed/199660" width="100%" height="200px"></iframe>
-            </div>
-
-
-            </div>
-          </div>
         </div>
 
         <div class="row justify-content-center" id="BottomPadding"></div>
 
     </div>
     <script src="../Javascript/LoadingPage.js"></script>
+    <script language="JavaScript">
+        var frmvalidator = new Validator("contactform");
+        frmvalidator.addValidation("name", "req", "Please provide your name");
+        frmvalidator.addValidation("BNID", "req", "Please provide your Bronco Net ID");
+        frmvalidator.addValidation("BNID", "BNID", "Please enter a valid Bronco Net ID, Which should consist of 3 letters and 4 numbers");
+    </script>
 </body>
+
 
 </html>
