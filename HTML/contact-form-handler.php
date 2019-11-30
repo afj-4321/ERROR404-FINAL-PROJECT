@@ -1,7 +1,7 @@
 <?php 
 
 $errors = '';
-$myemail = 'anfal.faisal@gmail.com';//<-----Put Your email address here.
+$myemail = 'error404ticket@gmail.com';//<-----Put Your email address here.
 if(empty($_POST['name'])  || 
    empty($_POST['BNID']) || 
    empty($_POST['Message']))
