@@ -16,7 +16,7 @@ $BNID = mysqli_real_escape_string($link, $_REQUEST['BNID']);
 // Attempt insert query execution
 $sql = "INSERT INTO contactus (name, BNID, Message) VALUES ('$name', '$BNID', '$Message')";
 if(mysqli_query($link, $sql)){
-    echo "Records added successfully.";
+    header('Location: success.html');
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
