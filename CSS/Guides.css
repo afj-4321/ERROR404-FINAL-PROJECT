@@ -55,11 +55,31 @@
   text-decoration: none;
 }
 
-#body img{
+#Body img{
   border-radius: 1rem;
   border: solid;
   border-color: #ffae00;
   background-color: black;
-  max-width: 250px;
   padding: .5rem;
+  display: block;
+  margin: 0 auto;
+  display: inline-block;
+  max-height: 250px;
+  max-width: 250px;
+}
+
+.btn-warning{
+  border: solid;
+  border-color: #222;
+  background-color: #ffae00;
+}
+
+h4{
+  font-size: 20pt;
+  text-align: center;
+}
+
+#WiFiLink{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
