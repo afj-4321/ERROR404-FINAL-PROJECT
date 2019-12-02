@@ -32,7 +32,7 @@ if( empty($errors))
 	
 	mail($to,$email_subject,$email_body,$headers);
 	//redirect to the 'thank you' page
-	header('Location: success.html');
+	header('Location: ../HTML/success.html');
 	
 } 
 include 'form_submit.php';
