@@ -109,3 +109,14 @@
 .content.hover .ClickHere i {
     background-color: #ffae00;
 }
+
+#description{
+  color: white;
+  border-radius: .5rem;
+  border: solid;
+  border-color: #ffae00;
+  background-color: black;
+  margin-top: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}

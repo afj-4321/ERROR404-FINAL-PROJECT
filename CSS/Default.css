@@ -75,6 +75,7 @@ h1 {
 h2 {
     color: lightgray;
     font-size: 15pt;
+    padding: .5rem;
 }
 
 #FRow1 {
